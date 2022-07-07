@@ -1,0 +1,63 @@
+====================================== MySQL WorkBanch ===========================================
+
+
+
+ Basic commands:
+
+
+
+
+1. How to go mysql workban	
+
+	
+
+	Ex: mysql -u root -p
+
+	
+	Keyboard:-> Hold Shift and use the left/right arrows to select a text area, then press Enter to copy. Paste text by pressing Insert.
+
+	
+	-> paste command in git bash
+	
+	Ex: ctrl + insert
+	
+
+	-> copy command in git bash
+	
+	Ex: shift + insert
+
+
+2. Create dump file and import file
+	
+
+	Link:-> https://www.youtube.com/watch?v=ArjSd6Tp5cQ
+	
+	Step1: Copy the path(Ex:- C:\Program Files\MySQL\MySQL Workbench 8.0)
+	
+	Step2: Open start menu and search for system variables.
+		
+	seelct first option and add the copied path to the PATH in the starting and then type.
+
+	Step3: open command prompt(CMD) go to path(E:\Java\Dump Files> ..)
+	
+	Step4: mysqldump -u username -p database_name > data-dump.sql
+
+	Step5: Enter MySQL Workbanch password
+	
+	Step6: mysql -u root -p
+	Step7: Create new database(Import file)
+	
+	Step8: To restore this file go to the folder containing the file(E:\Java\Dump Files> ..)
+	
+	Step9: mysql -u username -p new_database < data-dump.sql
+	
+	Step10:Enter password
+
+3. 
+
+
+
+2. How to go Postgres database
+	:->C:\Program Files\PostgreSQL\10\bin>psql -U postgres(CMD)
+
+	Enter password -> 1..
