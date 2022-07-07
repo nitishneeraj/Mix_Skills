@@ -1,0 +1,67 @@
+========================================================================== Spring Boot Tutorial ========================================================================
+
+1. Spring Boot ->
+	: Spring Boot Tutorial provides basic and advanced concepts of Spring Framework.
+	: Spring Boot such, as features, project, maven project, starter project wizard, Spring Initializr, CLI, applications, annotations, dependency management, 
+		properties, starters, Actuator, JPA, JDBC, etc.
+	: It provides an easier and faster way to set up, configure, and run both simple and web-based applications.
+	: It is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring Framework.
+	
+	Spring Framework + Embedded HTTP Servers(Tomcat,Jetty) - XML <bean> configuration or @configuration = Spring Boot
+
+	: We can use Spring STS IDE or Spring Initializr to develop Spring Boot Java applications.
+
+
+2. Why should we use Spring Boot Framework?
+	. The dependency injection approach is used in Spring Boot.
+	. It reduces the cost and development time of the application.
+	. It contains powerful database transaction management capabilities.
+
+
+3. Advantages of Spring Boot
+	. It increases productivity and reduces development time.
+	. There is no requirement for XML configuration.
+	. It offers a CLI tool for developing and testing the Spring Boot application.
+	. It offers the number of plug-ins.
+	. It creates stand-alone Spring applications that can be started using Java -jar.
+
+4. Goals of Spring Boot
+	. The main goal of Spring Boot is to reduce development, unit test, and integration test time.
+	. By providing Spring Boot Framework reduces Development time, Developer Effort, and increases productivity.	
+	
+5. Spring Boot Features
+	. Web Development
+	. SpringApplication
+	. Logging
+	. Security
+	. Type-safe Configuration
+	
+
+6. Spring
+	. Spring Framework is a widely used Java EE framework for building applications.
+	. The developer writes a lot of code (boilerplate code) to do the minimal task.
+	.  develop loosely coupled applications.
+	. The primary feature of the Spring Framework is dependency injection.
+
+7. Spring Boot
+	. Spring Boot Framework is widely used to develop REST APIs.
+	. It reduces boilerplate code.
+	. It helps to create a stand-alone application with less configuration.
+	. The primary feature of Spring Boot is Autoconfiguration.
+	. Spring Boot offers embedded server such as Jetty and Tomcat, etc.
+
+8. Spring Initializr
+	. Spring Initializr is a web-based tool provided by the Pivotal Web Service. With the help of Spring Initializr, we can easily generate the structure 
+		of the Spring Boot Project. 
+	. It supports IDE STS, IntelliJ IDEA Ultimate, NetBeans, Eclipse.
+
+9. Download and Install STS IDE
+	. Spring Tool Suite (STS) IDE
+	. Link->  https://spring.io/tools3/sts/all
+
+10. Creating a Spring Boot Project
+	. Step 1: Open the Spring initializr https://start.spring.io.
+	
+
+11. 
+

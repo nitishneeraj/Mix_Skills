@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+    http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util-3.0.xsd
+    ">
+	
+	<!-- Standalone Collection -->
+	
+	<util:map map-class="java.util.HashMap" id="mapList">
+	<entry key="Java" value="50000"/>
+	<entry key="PHP" value="10000"/>
+	<entry key="SQL" value="12000"/>
+	<entry key="RUBY" value="7000"/>
+	</util:map>
+	
+	<util:list list-class="java.util.LinkedList" id="myfriends">
+		<value>Rohan</value>
+		<value>RAM</value>
+		<value>Mohan</value>
+		<value>Sohan</value>
+	</util:list>
+	
+	<!-- Standalone Properties -->
+	
+	<util:properties id="sql">
+	<prop key="driver">mysql</prop>
+	<prop key="Username">root</prop>
+	</util:properties>
+	
+	<bean name="p1" class="com.SpringCore.Standalone_Collection.Person">
+	<property name="friends" ref="myfriends"></property>
+	<property name="feeStructure" ref="mapList"></property>	
+	<property name="prop" ref="sql"></property>
+	</bean>
+
+</beans>
