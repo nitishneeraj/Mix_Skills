@@ -1,0 +1,22 @@
+	Comment:- 
+			shift + /(slace)
+	
+
+	by default test:-
+		- lorem300
+
+	HTML Element: = start tag + content + end tag
+			Ex:   <samp class="title">Barand New</samp>
+
+
+	- head & body tag are children of html.
+	
+
+
+	- What is head:
+		- contains page metadata
+
+	- Case Sensitivity:
+		- No
+	
+	- 
