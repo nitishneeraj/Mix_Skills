@@ -61,3 +61,22 @@
 	:->C:\Program Files\PostgreSQL\10\bin>psql -U postgres(CMD)
 
 	Enter password -> 1..
+
+
+
+
+4.  Xampp Connect to CMD
+	1. Open Xampp
+	2. C:\xampp\mysql\bin>
+	3. mysql -uadmin -p
+	4. Enter PW
+	
+	5. mysql -uroot -p
+	6. enter
+
+
+5. Microsoft SQL server connect to CMD
+
+	1. SQLCMD -S localhost\sqlexpress
+	2. select name  from master.dbo.databases
+	3. go
