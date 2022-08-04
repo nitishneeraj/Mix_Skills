@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <context:annotation-config />
+    
+    <!-- InjectionLiteral -->
+	<!-- <context:property-placeholder location="classpath:Employee-info"/> -->
+	
+
+	<!-- IOC -->
+	<!-- <bean id="engine" class="IOC.Bike">
+	</bean> -->
+
+	<!-- Dependency_Injection (1) Way -->
+	<!-- <bean id="DI" class="Dependency_Injection.Bike">
+		<property name="color" value="Red" />name call setColor method
+
+		Dependency_Injection (2) Way
+		<constructor-arg name="color" value="RedDDDD" />name 
+			call Constructor method
+	</bean> -->
+
+
+	<!-- Object Type Dependency_Injection -->
+	<!-- <bean  id="enginObj" class="Object_type_Dependency_Injection.Engine" ></bean>
+	
+	<bean id="Bike" class="Object_type_Dependency_Injection.Bike">
+		<constructor-arg name="engine" ref="enginObj" />
+	</bean>
+	
+	<bean id="Car" class="Object_type_Dependency_Injection.Car">
+		<constructor-arg name="engine" ref="enginObj" />
+	</bean> -->
+
+
+	<!-- Autowiring -->
+	<!-- <bean id="deptObj" class="Autowiring.HRDept"/>
+	<bean id="company" class="Autowiring.Company"/> -->
+	
+	
+	<!-- InjectionLiteral -->
+	<!-- <bean id="Literal" class="InjectionLiteral.Employee"/> -->
+	
+
+	
+	
+</beans>
+
+
+	
